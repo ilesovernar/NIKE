@@ -1,0 +1,38 @@
+@media  (max-width: 1140px;) {
+.main__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav__item{
+    flex-direction: column;
+    padding: 20px 0; 
+}
+
+}
+    
+@media (max-width: 830px) {
+    .footer__item{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .footer__socials{
+        order:-1;
+        margin-top: 20px;
+    }
+    
+    .foooter__list{
+        margin: 20px 0;
+    }
+}
+
+@media(max-width:768px) {
+    .nav__list_link a{
+        padding: 15px 15px;
+    }
+    
+    .nav__list{
+        margin-top: ;
+    }
+}
